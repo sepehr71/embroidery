@@ -2,6 +2,7 @@
   --color-primary: #2584ff;
   --colr-secondary: #5a9aec;
   --color-accent: rgb(230, 72, 32);
+  --color-heading: rgb(56, 55, 55);
 }
 @font-face {
   font-family: Vazir;
@@ -73,8 +74,22 @@ a {
 .link-arrow:hover::after {
   margin-left: 10px;
 }
-@media screen and (min-width: "1000px") {
+@media screen and (min-width: 1000px) {
   .link-arrow {
     font-size: 1.5rem;
   }
+}
+/* Lists */
+.list {
+  list-style: none;
+  padding-left: 0;
+  color: var(--color-heading);
+}
+.list--inline .list__item {
+  display: inline-block;
+  margin-right: 2rem;
+}
+.list--tick {
+  list-style-image: url(../images/tick.svg);
+  padding-left: 2rem;
 }
