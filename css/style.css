@@ -1,6 +1,7 @@
 :root {
   --color-primary: #2584ff;
   --colr-secondary: #5a9aec;
+  --color-accent: rgb(230, 72, 32);
 }
 @font-face {
   font-family: Vazir;
@@ -25,4 +26,55 @@
 body {
   font-family: "Vazir", Arial, sans-serif;
   font-weight: normal;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  background-color: rgb(41, 40, 40);
+  color: rgb(177, 177, 177);
+}
+.logo {
+}
+
+.nav-item {
+  padding: 0.8rem;
+}
+
+.nav-item:hover {
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.5s;
+  border-bottom: 1px solid white;
+}
+@media screen and (min-width: 700px) {
+  .nav {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+  }
+}
+/* Links */
+a {
+  text-decoration: none;
+}
+.link-arrow {
+  color: var(--color-accent);
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.link-arrow::after {
+  content: "-->";
+  transition: margin 0.2s;
+}
+
+.link-arrow:hover::after {
+  margin-left: 10px;
+}
+@media screen and (min-width: "1000px") {
+  .link-arrow {
+    font-size: 1.5rem;
+  }
 }
