@@ -1,0 +1,15 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 87.8" id="popular">
+    <path fill="#1e0f6d" d="M0 4.7h35L30.3 0H5.1L0 4.7z"></path>
+    <g>
+      <path fill="#1b0760" d="M5.3.2v87l11.9-11.9 12.5 12.5V.2H5.3z"></path><text transform="rotate(90 1.05 12.25)" font-size="15" fill="#fff" font-family="Inter-Bold,Inter" font-weight="700">
+        <tspan letter-spacing="-.01em">P</tspan>
+        <tspan x="9.6" y="0">opular</tspan>
+      </text>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 11" id="tick">
+    <defs></defs>
+    <path id="Shape_10_copy_5" d="M2,4L6,8l8-8"></path>
+  </symbol>
+</svg>
