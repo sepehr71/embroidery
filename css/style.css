@@ -1,8 +1,19 @@
+.body {
+  font-size: 62.5%;
+}
 :root {
   --color-primary: #2584ff;
-  --colr-secondary: #5a9aec;
+  --color-primary-hovered: #1f6cd1;
+  --color-secondary: #4fe5ff;
+  --color-secondary-hovered: #42bcd1;
   --color-accent: rgb(230, 72, 32);
-  --color-heading: rgb(27, 27, 27);
+  --color-accent-hovered: rgb(182, 73, 46);
+  --color-heading: rgb(80, 48, 82);
+}
+*,
+*::after,
+a::before {
+  box-sizing: border-box;
 }
 @font-face {
   font-family: Vazir;
@@ -96,4 +107,67 @@ a {
 .list--tick .list__item {
   padding-left: 0.5rem;
   margin-bottom: 1rem;
+}
+/* Icon */
+.icon {
+  width: 40px;
+  height: auto;
+}
+.icon--primary {
+  fill: gray;
+}
+.icon-container {
+  background: gold;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* buttons */
+.btn {
+  padding: 1rem 4rem;
+  border-radius: 50px;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn--primary {
+  background: var(--color-primary);
+  color: white;
+}
+.btn--secondary {
+  background: var(--color-secondary);
+  color: white;
+}
+.btn--stretched {
+  width: 90%;
+  display: inline-block;
+  color: white;
+}
+.btn--outline {
+  background: #fff;
+  color: var(--color-heading);
+  border: 2px solid var(--color-heading);
+}
+.btn--primary:hover {
+  background: var(--color-primary-hovered);
+}
+.btn--secondary:hover {
+  background: var(--color-secondary-hovered);
+}
+.btn--accent:hover {
+  background: var(--color-accent-hovered);
+}
+.btn--outline:hover {
+  background: var(--color-heading);
+  color: #fff;
+}
+@media screen and (min-width: 1040px) {
+  .btn {
+    font-size: 1.5rem;
+  }
 }
