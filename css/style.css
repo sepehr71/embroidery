@@ -143,6 +143,10 @@ a {
   background: var(--color-secondary);
   color: white;
 }
+.btn--accent {
+  background: var(--color-accent);
+  color: white;
+}
 .btn--stretched {
   width: 90%;
   display: inline-block;
@@ -169,5 +173,39 @@ a {
 @media screen and (min-width: 1040px) {
   .btn {
     font-size: 1.5rem;
+  }
+}
+/* mix input */
+.group-input {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 20px 1px grey;
+}
+.search-input {
+  flex-grow: 1;
+  padding: 1.5rem 4rem;
+  border: none;
+  border-radius: 50px;
+  outline: 0;
+  color: var(--color-heading);
+  font-size: 2rem;
+  left: 1rem;
+}
+::placeholder {
+  color: #cdcbd7;
+}
+.group-input .btn--accent {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 4px;
+}
+
+@media screen and (min-width: 1040px) {
+  .search-input {
   }
 }
