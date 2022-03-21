@@ -105,14 +105,18 @@ a {
 }
 /* Icon */
 .icon {
-  width: 40px;
+  width: 50px;
   height: auto;
 }
 .icon--primary {
   fill: gray;
 }
+.icon--secondary {
+  width: 100px;
+  height: 100px;
+}
 .icon-container {
-  background: gold;
+  background: rgb(243, 206, 206);
   width: 64px;
   height: 64px;
   border-radius: 100%;
@@ -270,4 +274,19 @@ a {
 }
 .card:hover {
   transform: scale(1.05);
+}
+/* Media Objects */
+.media {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.media-text {
+  padding-right: 1rem;
+}
+.media-text h1 {
+  text-align: right;
+}
+.media_all {
+  margin-right: 1rem;
 }

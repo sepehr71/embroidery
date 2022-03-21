@@ -1,6 +1,6 @@
-<svg width="0" height="0" class="hidden">
-  <symbol version="1.0" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 600.000000 600.000000" id="349323">
-    <g transform="translate(0.000000,600.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+<svg width="100px" height="100px" class="hidden">
+  <symbol version="1.0" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 600.000000 600.000000" id="wilcom">
+    <g transform="translate(0.000000,600.000000) scale(0.100000,-0.100000)" fill="greyd" stroke="none">
       <path d="M2935 4513 c-11 -2 -56 -11 -100 -19 -476 -92 -863 -477 -970 -964
 -25 -116 -30 -315 -11 -441 75 -501 439 -902 934 -1028 485 -124 1005 64 1308
 474 159 216 237 453 237 730 1 165 -9 230 -54 380 -136 444 -528 785 -989 860
