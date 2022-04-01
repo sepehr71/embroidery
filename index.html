@@ -4,10 +4,217 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"
+    />
+    <link
+    rel="stylesheet"
+    href="node_modules/@fortawesome/fontawesome-free/css/solid.css"
+  /> -->
+
+</head>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>فروشگاه شاکری</title>
   </head>
 
-  <body></body>
+  <body>
+    <div class="nav" id="nav">
+      <div class="nav-item nav-logo"><img style="width: 2rem;" src="images/s with black back ground.jpg" /></div>
+      <div class="nav-item"><a href="#nav">خانه</a></div>
+      <div class="nav-item"><a href="#gallery">گالری</a></div>
+      <div class="nav-item"><a href="#about-us">درباره ما</a></div>
+      <div class="nav-item"><a href="#contact">ارتباط با ما</a></div>
+    </div>
+
+   <!-- Slideshow container -->
+<div class="slideshow-container" id="slide">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="images/Banner7.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/cover-image-2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/cover-image-3.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<div class="gallery" id="gallery">
+  <div class="gallery_img img-1"><img src="images/image_gallery_7.jpg" /></div>
+  <div class="gallery_img img-2"><img src="images/image_gallery_5.jpg" /></div>
+  <div class="gallery_img img-3"><img src="images/image_gallery_8.jpg" /></div>
+  <div class="gallery_img img-4"><img src="images/image_gallery_4.jpg" /></div>
+  <div class="gallery_img img-5"><img src="images/image_gallery_10.jpg" /></div>
+  <div class="gallery_img img-6"><img src="images/image_gallery_6.jpg" /></div>
+  <div class="gallery_img img-7"><img src="images/image_gallery_9.jpg" /></div>
+  <div class="gallery_img img-8"><img src="images/image_gallery_2.jpg" /></div>
+  <div class="gallery_img img-9"><img src="images/image_gallery_1.jpg" /></div>
+  <div class="gallery_img img-10"><img src="images/image_gallery_3.jpg" /></div>
+
+</div>
+
+
+
+
+<div class="about-us" id="about-us">
+
+  <div class="year_block y_block1">
+   <div class="title_block"><p>1340</p></div>
+  <div>
+  <p>شروع کار در سال با دستگاه خیاطی </p>
+  </div>
+  <div class="content_block">
+  <img src="images/swing-machine1340.jpg" />
+  </div>
+  </div>
+  
+   <div class="year_block y_block2">
+  <div class="title_block" >
+  <p>1345</p>
+  </div>
+  
+  <div class="content_block">
+  <p>  وارد کردن دستگاه گلدوزی مارکو از کشور آلمان   </p>
+  </div>
+  <img src="images/marco-embroisery-1345-removebg-preview.png"/>
+  </div>
+  
+  
+   <div class="year_block y_block3">
+  <div class="title_block">
+  <p>1375</p>
+  </div>
+  <div class="content_block">
+  <p> تغییر نسل دستگاه مکانیکی به کامپیوتری</p>
+  </div>
+  <img src="images/tajima 1375.png"  />
+  </div>
+  
+   <div class="year_block y_block4">
+  <div class="title_block">
+  <p>1385</p>
+  </div>
+  <div class="content_block">
+  <p>ارتقا به دستگاه های بروز تاجیما</p>
+  </div>
+  <img src="images/tajima-tfsn.jpg"/>
+  </div>
+  </div>
+  
+  
+
+
+    <div class="media_all">
+      <div class="media">
+        <div class="media-text">
+          <h1>گلدوزی با دستگاه های کامپیوتری</h1>
+          <p>
+            با استفاده از دستگاه های به روز گلدوزی تمام کامپیوتری تاجیما ساخت کشور
+            ژاپن بهترین کیفیت دوخت را تضمین می کند
+          </p>
+        </div>
+        <div class="icon-container icon-container--media">
+          <svg class="icon icon--primary">
+            <use xlink:href="images/sprite.svg#273921"></use>
+          </svg>
+        </div>
+      </div>
+  
+      <div class="media">
+        
+        <div class="media-text">
+          <h1>طراحی و فیلمسازی با نرم افزار های به روز</h1>
+          <p>
+            استفاده از برترین و جدیدترین نرم افزار طراحی ویلکام 2019 ، طرح شما را
+            با بالاترین کیفیت ممکن طراحی میکند
+          </p>
+        </div>
+        <div class="icon-container icon-container--media">
+          <svg class="icon icon--primary icon--secondary">
+            <use xlink:href="images/wilcom.svg#wilcom"></use>
+          </svg>
+        </div>
+      </div>
+  
+      <div class="media">
+        
+        <div class="media-text">
+          <h1>به کارگیری پرسنل فنی و مجرب</h1>
+          <p>
+            گلدوزی شاکری با به کار گیری پرسنل دقیق و مجرب ، تضمین کاری بدون نقص و
+            ایراد را به شما مشتری گرامی می دهد
+          </p>
+        </div>
+        <div class="icon-container icon-container--media">
+          <svg class="icon icon--primary icon--secondary">
+            <use xlink:href="images/personel.svg#personel"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>    
+
+  <div class="contact-us" id="contact">
+    <div class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12960.653766818032!2d51.4020264!3d35.6975954!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbce4bde5b08770fc!2z2q_ZhNiv2YjYstuMINqp2KfZhdm-24zZiNiq2LHbjCDYtNin2qnYsduM!5e0!3m2!1sen!2s!4v1648462861287!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="tel-addr">
+  <p>آدرس : خیابان فلسطین جنوبی بین روانمهر و لبافی نژاد</p>
+  <p>نبش بن بست یکم پلاک 164 طبقه 3 واحد 5</p>
+  <p><i style="font-size:24px" class="fa">021-66469590   &#xf095; </i> </p>
+  <p><i style="font-size:24px" class="fa">021-66405674   &#xf095; </i> </p>
+  <p><i style="font-size:24px" class="fa">0912-1494273   &#xf095; </i> </p>
+  <p><i style="font-size:24px" class="fa">0910-2116267   &#xf095; </i> </p> 
+  
+
+  </div>
+  </div>
+    
+    <div class="footer">
+      <div class="footer_logo">
+        <img style="width: 6rem" src="images/shakeri.jpg" />
+      </div>
+      <div class="footer_row">
+        <p class="footer_row_header">گلدوزی شاکری</p>
+        <div class="footer_row_item"><a>ارتباط با ما</a></div>
+        <div class="footer_row_item"><a>درباره ما</a></div>
+        <div class="footer_row_item"><a>فرصت های شغلی</a></div>
+      </div>
+      <div class="footer_row">
+        <p class="footer_row_header">شبکه های اجتماعی</p>
+        <div class="footer_row_item"><a href="https://www.instagram.com/goldozi_shakeri/"><i  class="fa">&#xf16d;</i></a></div>
+        <div class="footer_row_item"><a href="https://wa.me/989102116267"><i  class="fa">&#xf232;</i></a></div>
+        <div class="footer_row_item"><a href="https://t.me/goldouzi_shakeri"><i  class="fa">&#xf2c6;</i></a></div>
+      </div>
+      <div class="footer_row">
+        <p class="footer_row_header">خدمات</p>
+        <div class="footer_row_item"><a>گلدوزی</a></div>
+        <div class="footer_row_item"><a>لیزر</a></div>
+        <div class="footer_row_item"><a>طراحی و فیلم سازی</a></div>
+      </div>
+    </div>
+  
+    
+  <script src="scripts/slidescript.js"></script>
+  </body>
+
 </html>
